@@ -1,0 +1,215 @@
+[
+  {
+    "l": 3,
+    "message": "Build a closed trail using all parts.",
+    "solution": "lll"
+  },
+  {
+    "s": 1,
+    "l": 4,
+    "message": "A simple one",
+    "solution": "llsll"
+  },
+  {
+    "s": 2,
+    "l": 4,
+    "r": 1,
+    "message": "Heart",
+    "solution": "rllslsl"
+  },
+  {
+    "l": 8,
+    "r": 3,
+    "message": "Star",
+    "solution": "llrllrllrll"
+  },
+  {
+    "s": 3,
+    "l": 6,
+    "r": 2,
+    "message": "Hut",
+    "solution": "sllrlslrlls"
+  },
+  {
+    "s": 3,
+    "l": 3,
+    "r": 7,
+    "message": "Letter F",
+    "solution": "ssrsrrllrrlrr"
+  },
+  {
+    "s": 8,
+    "l": 2,
+    "r": 5,
+    "message": "Pants",
+    "solution": "ssrssrssrrsllsr"
+  },
+  {
+    "s": 2,
+    "l": 2,
+    "r": 5,
+    "message": "Letter T",
+    "solution": "lrrssrrlr"
+  },
+  {
+    "s": 5,
+    "l": 6,
+    "r": 2,
+    "message": "Letter C",
+    "solution": "rllslssslsllr"
+  },
+  {
+    "s": 4,
+    "l": 3,
+    "r": 2,
+    "c": 1,
+    "message": "New type",
+    "solution": "srsclllsrs"
+  },
+  {
+    "l": 2,
+    "r": 5,
+    "c": 2,
+    "message": "Node",
+    "solution": "rrcllcrrr"
+  },
+  {
+    "r": 11,
+    "c": 4,
+    "message": "4th node",
+    "solution": "rccrrrcrrrcrrrr"
+  },
+  {
+    "s": 4,
+    "l": 3,
+    "r": 2,
+    "c": 1,
+    "message": "Long node",
+    "solution": "rsrclsllss"
+  },
+  {
+    "s": 4,
+    "l": 5,
+    "r": 4,
+    "c": 1,
+    "message": "Horse",
+    "solution": "srrllrrsclllss"
+  },
+  {
+    "s": 5,
+    "l": 1,
+    "r": 5,
+    "message": "Letter P",
+    "solution": "ssrsrsrlsrr"
+  },
+  {
+    "s": 2,
+    "l": 2,
+    "r": 7,
+    "c": 4,
+    "message": "Have fun!",
+    "solution": "crcrcrrcrsrsrll"
+  },
+  {
+    "s": 1,
+    "l": 6,
+    "r": 2,
+    "c": 2,
+    "message": "Symmetry",
+    "solution": "clllrsrclll"
+  },
+  {
+    "s": 3,
+    "l": 4,
+    "r": 8,
+    "message": "Letter H",
+    "solution": "rrllrrssrrllrrs"
+  },
+  {
+    "s": 5,
+    "l": 4,
+    "r": 8,
+    "message": "Letter I",
+    "solution": "lrrssrrlslrrssrrl"
+  },
+  {
+    "s": 10,
+    "l": 3,
+    "r": 8,
+    "message": "Duck",
+    "solution": "srsrlrrlsrssssrssrrls"
+  },
+  {
+    "s": 3,
+    "l": 6,
+    "r": 10,
+    "message": "House",
+    "solution": "lrrlrlrrlrlrrlsrssr"
+  },
+  {
+    "s": 4,
+    "l": 9,
+    "c": 3,
+    "message": "Square",
+    "solution": "sclllsclllscllls"
+  },
+  {
+    "s": 6,
+    "l": 6,
+    "r": 3,
+    "message": "Stairs",
+    "solution": "sssllrlrlrllsss"
+  },
+  {
+    "s": 9,
+    "r": 8,
+    "c": 1,
+    "message": "Spiral",
+    "solution": "rrsrcrssrssrsssrsr"
+  },
+  {
+    "s": 8,
+    "l": 6,
+    "r": 9,
+    "message": "Say 'Hi'",
+    "solution": "ssrrllrrsllsrrssrssrllr"
+  },
+  {
+    "s": 15,
+    "l": 6,
+    "r": 10,
+    "message": "Human",
+    "solution": "srssrsslsrrslssrrsllsrrsslsrrsl"
+  },
+  {
+    "s": 5,
+    "r": 8,
+    "c": 1,
+    "message": "Brezel",
+    "solution": "srsrcrrrrsrssr"
+  },
+  {
+    "s": 11,
+    "l": 4,
+    "r": 8,
+    "message": "2+3",
+    "solution": "rssrrsllsrssrssrrsllsrs"
+  },
+  {
+    "s": 9,
+    "r": 8,
+    "c": 3,
+    "message": "Another node",
+    "solution": "rcscrssrssrcsrsrsrsr"
+  },
+  {
+    "s": 12,
+    "l": 4,
+    "r": 1,
+    "message": "Italy",
+    "solution": "sssslslsssrsllsss"
+  },
+  {
+    "message": "Congratulations! You've finished my game, nerd."
+  }
+]
