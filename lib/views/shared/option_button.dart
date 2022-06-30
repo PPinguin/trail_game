@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:trail/utils/resources.dart';
-import 'package:trail/utils/sounds_manager.dart';
+import 'package:trail/repository/sounds_manager.dart';
 
 import '../../entities/option.dart';
 import '../../entities/tile.dart';
@@ -37,6 +37,7 @@ class OptionButton extends StatelessWidget {
                 }
               },
               style: ButtonStyle(
+                enableFeedback: false,
                   shadowColor: MaterialStateProperty.resolveWith<Color>(
                       (states) => Colors.transparent),
                   backgroundColor: MaterialStateProperty.resolveWith<Color>(

@@ -1,213 +1,243 @@
 [
   {
-    "l": 3,
     "message": "Build a closed trail using all parts.",
-    "solution": "lll"
+    "path": "lll"
   },
   {
-    "s": 1,
-    "l": 4,
     "message": "A simple one",
-    "solution": "llsll"
+    "path": "llsll"
   },
   {
-    "s": 2,
-    "l": 4,
-    "r": 1,
+    "message": "Loop",
+    "path": "rclllr"
+  },
+  {
     "message": "Heart",
-    "solution": "rllslsl"
+    "path": "rllslsl"
   },
   {
-    "l": 8,
-    "r": 3,
-    "message": "Star",
-    "solution": "llrllrllrll"
+    "message": "You can do this",
+    "path": "srsrsrs"
   },
   {
-    "s": 3,
-    "l": 6,
-    "r": 2,
-    "message": "Hut",
-    "solution": "sllrlslrlls"
+    "message": "Beep beep!",
+    "path": "srsrlrrss"
   },
   {
-    "s": 3,
-    "l": 3,
-    "r": 7,
-    "message": "Letter F",
-    "solution": "ssrsrrllrrlrr"
-  },
-  {
-    "s": 8,
-    "l": 2,
-    "r": 5,
-    "message": "Pants",
-    "solution": "ssrssrssrrsllsr"
-  },
-  {
-    "s": 2,
-    "l": 2,
-    "r": 5,
     "message": "Letter T",
-    "solution": "lrrssrrlr"
+    "path": "lrrssrrlr"
   },
   {
-    "s": 5,
-    "l": 6,
-    "r": 2,
-    "message": "Letter C",
-    "solution": "rllslssslsllr"
+    "message": "Doubled loop",
+    "path": "crclllrll"
   },
   {
-    "s": 4,
-    "l": 3,
-    "r": 2,
-    "c": 1,
-    "message": "New type",
-    "solution": "srsclllsrs"
+    "message": "My precious-s-s-s-s",
+    "path": "csrsrsrsll"
   },
   {
-    "l": 2,
-    "r": 5,
-    "c": 2,
-    "message": "Node",
-    "solution": "rrcllcrrr"
+    "message": "All you need is Love",
+    "path": "rrsclllsrr"
   },
   {
-    "r": 11,
-    "c": 4,
-    "message": "4th node",
-    "solution": "rccrrrcrrrcrrrr"
+    "message": "Hook",
+    "path": "crllslslrr"
   },
   {
-    "s": 4,
-    "l": 3,
-    "r": 2,
-    "c": 1,
-    "message": "Long node",
-    "solution": "rsrclsllss"
+    "message": "Star",
+    "path": "llrllrllrll"
   },
   {
-    "s": 4,
-    "l": 5,
-    "r": 4,
-    "c": 1,
-    "message": "Horse",
-    "solution": "srrllrrsclllss"
+    "message": "Hut",
+    "path": "sllrlslrlls"
   },
   {
-    "s": 5,
-    "l": 1,
-    "r": 5,
+    "message": "Go around",
+    "path": "rrsrssrsrrl"
+  },
+  {
     "message": "Letter P",
-    "solution": "ssrsrsrlsrr"
+    "path": "ssrsrsrlsrr"
   },
   {
-    "s": 2,
-    "l": 2,
-    "r": 7,
-    "c": 4,
-    "message": "Have fun!",
-    "solution": "crcrcrrcrsrsrll"
-  },
-  {
-    "s": 1,
-    "l": 6,
-    "r": 2,
-    "c": 2,
     "message": "Symmetry",
-    "solution": "clllrsrclll"
+    "path": "clllrsrclll"
   },
   {
-    "s": 3,
-    "l": 4,
-    "r": 8,
-    "message": "Letter H",
-    "solution": "rrllrrssrrllrrs"
+    "message": "Leaf",
+    "path": "slrlslslrls"
   },
   {
-    "s": 5,
-    "l": 4,
-    "r": 8,
-    "message": "Letter I",
-    "solution": "lrrssrrlslrrssrrl"
+    "message": "Good luck!",
+    "path": "clllclllclll"
   },
   {
-    "s": 10,
-    "l": 3,
-    "r": 8,
-    "message": "Duck",
-    "solution": "srsrlrrlsrssssrssrrls"
+    "message": "Letter F",
+    "path": "ssrsrrllrrlrr"
   },
   {
-    "s": 3,
-    "l": 6,
-    "r": 10,
-    "message": "House",
-    "solution": "lrrlrlrrlrlrrlsrssr"
+    "message": "Letter C",
+    "path": "rllslssslsllr"
   },
   {
-    "s": 4,
-    "l": 9,
-    "c": 3,
-    "message": "Square",
-    "solution": "sclllsclllscllls"
+    "message": "Horse",
+    "path": "clllssrsrrllrr"
   },
   {
-    "s": 6,
-    "l": 6,
-    "r": 3,
-    "message": "Stairs",
-    "solution": "sssllrlrlrllsss"
+    "message": "How long does it take?",
+    "path": "rsrsrscslslsls"
   },
   {
-    "s": 9,
-    "r": 8,
-    "c": 1,
-    "message": "Spiral",
-    "solution": "rrsrcrssrssrsssrsr"
-  },
-  {
-    "s": 8,
-    "l": 6,
-    "r": 9,
-    "message": "Say 'Hi'",
-    "solution": "ssrrllrrsllsrrssrssrllr"
-  },
-  {
-    "s": 15,
-    "l": 6,
-    "r": 10,
-    "message": "Human",
-    "solution": "srssrsslsrrslssrrsllsrrsslsrrsl"
-  },
-  {
-    "s": 5,
-    "r": 8,
-    "c": 1,
     "message": "Brezel",
-    "solution": "srsrcrrrrsrssr"
+    "path": "srsrcrrrrsrssr"
   },
   {
-    "s": 11,
-    "l": 4,
-    "r": 8,
-    "message": "2+3",
-    "solution": "rssrrsllsrssrssrrsllsrs"
+    "message": "Butterfly",
+    "path": "rrlrrscsllrlls"
   },
   {
-    "s": 9,
-    "r": 8,
-    "c": 3,
-    "message": "Another node",
-    "solution": "rcscrssrssrcsrsrsrsr"
+    "message": "Pants",
+    "path": "ssrssrssrrsllsr"
   },
   {
-    "s": 12,
-    "l": 4,
-    "r": 1,
+    "message": "4th node",
+    "path": "rccrrrcrrrcrrrr"
+  },
+  {
+    "message": "Stairs",
+    "path": "sssllrlrlrllsss"
+  },
+  {
+    "message": "Have fun!",
+    "path": "crcrcrrcrsrsrll"
+  },
+  {
+    "message": "Letter H",
+    "path": "rrllrrssrrllrrs"
+  },
+  {
+    "message": "Fish",
+    "path": "cllcclscrrrslll"
+  },
+  {
+    "message": "Cross",
+    "path": "rlrsrlrsrlrsrlr"
+  },
+  {
+    "message": "Relax",
+    "path": "rrlrlrrlrrlrlrr"
+  },
+  {
+    "message": "Mask",
+    "path": "ccrrrllrcllcrrr"
+  },
+  {
+    "message": "I glad to see you here",
+    "path": "crrclllcclllrrl"
+  },
+  {
+    "message": "Square",
+    "path": "sclllsclllscllls"
+  },
+  {
+    "message": "Letter I",
+    "path": "lrrssrrlslrrssrrl"
+  },
+  {
+    "message": "Wave",
+    "path": "rsllsscrrcsllslsl"
+  },
+  {
+    "message": "Smile!",
+    "path": "rllrllsssssllrllr"
+  },
+  {
     "message": "Italy",
-    "solution": "sssslslsssrsllsss"
+    "path": "sssslslsssrsllsss"
+  },
+  {
+    "message": "Ear",
+    "path": "ccrrrrsrssrssrsll"
+  },
+  {
+    "message": "Snake",
+    "path": "rslslcrclllrrslsl"
+  },
+  {
+    "message": "Moooo",
+    "path": "clllssclllsrlrrlr"
+  },
+  {
+    "message": "Spiral",
+    "path": "rrsrcrssrssrsssrsr"
+  },
+  {
+    "message": "Scissors",
+    "path": "rlrrscrrrsrrlrssrs"
+  },
+  {
+    "message": "You spin me",
+    "path": "slssslsslsslclslls"
+  },
+  {
+    "message": "Something to hate",
+    "path": "scrsrcrllslslslsl"
+  },
+  {
+    "message": "House",
+    "path": "lrrlrlrrlrlrrlsrssr"
+  },
+  {
+    "message": "I'm not kidding",
+    "path": "lsclclcllcrsrsrlsls"
+  },
+  {
+    "message": "I've got no idea",
+    "path": "crrrsllrrllscrrrrll"
+  },
+  {
+    "message": "Another node",
+    "path": "rcscrssrssrcsrsrsrsr"
+  },
+  {
+    "message": "Duck",
+    "path": "srsrlrrlsrssssrssrrls"
+  },
+  {
+    "message": "Such a good day!",
+    "path": "rcllllsslclllrsrssssr"
+  },
+  {
+    "message": "The thing",
+    "path": "csrrllrrsrsssslsllrrll"
+  },
+  {
+    "message": "2+3",
+    "path": "rssrrsllsrssrssrrsllsrs"
+  },
+  {
+    "message": "Say 'Hi'",
+    "path": "ssrrllrrsllsrrssrssrllr"
+  },
+  {
+    "message": "Crab",
+    "path": "ssrsrcllcrrrlsslccrrrllrsrs"
+  },
+  {
+    "message": "Corner",
+    "path": "sssllrllrrllrlrllrrllrllsss"
+  },
+  {
+    "message": "Flower",
+    "path": "rcrrrrssrcrrrrssrcrrrrssrcrrrrs"
+  },
+  {
+    "message": "Human",
+    "path": "srssrsslsrrslssrrsllsrrsslsrrsl"
+  },
+  {
+    "message": "Gamepad",
+    "path": "srcrrrrsrllrsrcrrrrssrsrlsslrsr"
   },
   {
     "message": "Congratulations! You've finished my game, nerd."

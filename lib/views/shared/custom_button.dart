@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trail/utils/resources.dart';
-import 'package:trail/utils/sounds_manager.dart';
+import 'package:trail/repository/sounds_manager.dart';
 
 class CustomButton extends StatelessWidget {
 
@@ -32,6 +32,7 @@ class CustomButton extends StatelessWidget {
           onPress();
         } : (){},
         style: ButtonStyle(
+            enableFeedback: false,
             shadowColor: MaterialStateProperty.resolveWith<Color>(
                     (states) => Colors.transparent),
             backgroundColor: MaterialStateProperty.resolveWith<Color>(
@@ -42,7 +43,7 @@ class CustomButton extends StatelessWidget {
                     (states) => RoundedRectangleBorder(
                   side: border
                       ? const BorderSide(
-                      color: Resources.primary, width: 2)
+                      color: Resources.primary, width: 3)
                       : BorderSide.none,
                   borderRadius: BorderRadius.circular(8),
                 ))),

@@ -54,18 +54,26 @@ class GameData {
 
   static List<TileType> loadSolution(int level){
     List<TileType> result = [];
-    for(String type in (_levels[level]["solution"] as String).split('')){
+    for(String type in (_levels[level]["path"] as String).split('')){
       TileType? t = _parse(type);
       if(t != null) result.add(t);
     }
     return result;
   }
 
-  static List<Option> loadLevel(int level){
+  static List<Option> loadButtons(int level){
     List<Option> result = [];
-    for(String key in _levels[level].keys){
-      TileType? t = _parse(key);
-      if(t != null) result.add(Option(t, _levels[level][key]!));
+    if((_levels[level] as Map<String, dynamic>).containsKey('path')) {
+      Map<TileType, int> cache = {};
+      for (String type in (_levels[level]["path"] as String).split('')) {
+        TileType? t = _parse(type);
+        if (t != null) {
+          cache.update(t, (value) => value + 1, ifAbsent: () => 1);
+        }
+      }
+      for (TileType type in cache.keys) {
+        result.add(Option(type, cache[type]!));
+      }
     }
     return result;
   }

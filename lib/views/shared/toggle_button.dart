@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:trail/utils/sounds_manager.dart';
+import 'package:trail/repository/sounds_manager.dart';
 
 import '../../utils/resources.dart';
 
@@ -51,7 +51,9 @@ class ToggleTextButtonState extends State<ToggleTextButton>{
           shape: MaterialStateProperty
               .resolveWith<RoundedRectangleBorder>((states) =>
               RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16)
+                  borderRadius: BorderRadius.circular(16),
+                side: const BorderSide(
+                    color: Resources.primary, width: 3)
               )
           )
       ),

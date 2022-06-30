@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:trail/views/shared/toggle_button.dart';
 
-import '../../utils/game_data.dart';
+import '../../repository/game_data.dart';
 import '../../utils/themes.dart';
 import 'custom_button.dart';
 

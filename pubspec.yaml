@@ -1,9 +1,9 @@
 name: trail
 description: trail-game
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ">=2.17.1 <3.0.0"
@@ -44,3 +44,7 @@ flutter:
   uses-material-design: true
 
 flutter_native_splash:
+  color: "#eeeeee"
+  image: assets/launcher/icon.png
+  ios: true
+  android: true

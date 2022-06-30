@@ -2,7 +2,8 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:trail/utils/game_data.dart';
+import 'package:trail/repository/game_data.dart';
+import 'package:trail/repository/sounds_manager.dart';
 import 'package:trail/views/shared/splash_painter.dart';
 
 class SplashPage extends StatefulWidget {
@@ -40,6 +41,7 @@ class SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
 
   void initialization() async {
     await GameData.initialize();
+    SoundsManager.init();
   }
 
   void run() async {

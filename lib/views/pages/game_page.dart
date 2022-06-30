@@ -4,10 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:trail/models/game_model.dart';
-import 'package:trail/utils/ad_manager.dart';
-import 'package:trail/utils/game_data.dart';
+import 'package:trail/repository/ad_manager.dart';
 import 'package:trail/utils/resources.dart';
-import 'package:trail/utils/sounds_manager.dart';
+import 'package:trail/repository/sounds_manager.dart';
 import 'package:trail/utils/themes.dart';
 import 'package:trail/views/shared/game_painter.dart';
 import 'package:trail/views/shared/option_button.dart';
@@ -49,11 +48,11 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
     super.initState();
     context.read<GameModel>().initLevel(widget.level);
     context.read<GameModel>()
-      ..completeCallback = () {
+      ..setLevelCallback = (level) {
         SoundsManager.playComplete();
-        next(context);
+        setLevel(context, level);
       }
-      ..failCallback = () {
+      ..restartCallback = () {
         restart(context);
       };
     displayLevel = widget.level + 1;
@@ -137,6 +136,7 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 IconButton(
+                  enableFeedback: false,
                   icon: SvgPicture.asset('assets/icons/menu.svg'),
                   onPressed: () {
                     SoundsManager.playClick();
@@ -149,6 +149,7 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
                         : 'finish',
                     style: ThemeUtils.textTheme.labelMedium),
                 IconButton(
+                  enableFeedback: false,
                   icon: SvgPicture.asset('assets/icons/restart.svg'),
                   onPressed: () {
                     if (context.read<GameModel>().status == GameStatus.game) {
@@ -186,12 +187,12 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
         arguments: {'level': widget.level, 'redraw': false});
   }
 
-  void next(BuildContext context) async {
+  void setLevel(BuildContext context, int level) async {
     uiController.reverse();
     await Future.delayed(const Duration(milliseconds: 500));
     // ignore: use_build_context_synchronously
     Navigator.pushReplacementNamed(context, '/game',
-        arguments: {'level': widget.level + 1});
+        arguments: {'level': level});
   }
 
   void pause(BuildContext context) {
@@ -210,7 +211,7 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
                     failed: () => error());
               },
               'Levels': () {
-                Navigator.pushReplacementNamed(context, '/levels',
+                Navigator.pushNamed(context, '/levels',
                     arguments: {'current': widget.level});
               }
             }),

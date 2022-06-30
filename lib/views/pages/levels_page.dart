@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:trail/utils/game_data.dart';
+import 'package:provider/provider.dart';
+import 'package:trail/models/game_model.dart';
+import 'package:trail/repository/game_data.dart';
 import 'package:trail/utils/themes.dart';
 import 'package:trail/views/shared/custom_button.dart';
 
@@ -14,9 +16,9 @@ class LevelsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.all(16),
+      body: SafeArea(
         child: GridView.builder(
+          padding:  const EdgeInsets.all(16),
           physics: const BouncingScrollPhysics(),
             shrinkWrap: true,
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -28,8 +30,9 @@ class LevelsPage extends StatelessWidget {
             itemBuilder: (context, index) {
               return CustomButton(
                 onPress: () {
-                  Navigator.pushReplacementNamed(context, '/game',
-                      arguments: {'level': index});
+                  Navigator.pop(context);
+                  Provider.of<GameModel>(context, listen: false)
+                      .startLevel(index);
                 },
                 active: index <= GameData.max,
                 label: '${index + 1}',
